@@ -51,6 +51,6 @@ The frontend will run on http://localhost:3000.
 -Start the PostgreSQL server using mypgadmin4 and note the username and password used during installation.
 
 -Follow these steps, and you should have the TODO FullStack Application up and running on your local machine.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
