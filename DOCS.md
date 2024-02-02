@@ -52,5 +52,103 @@ The frontend will run on http://localhost:3000.
 
 -Follow these steps, and you should have the TODO FullStack Application up and running on your local machine.
 
+## TODO FullStack Application - Features and APIs
+##Features
+### Task Management:
+Add new tasks with due dates.
+Edit existing tasks.
+Delete tasks.
+Mark tasks as completed.
+View tasks with due dates and completion status.
 
+###Task Sorting:
+
+Sort tasks by due date.
+Sort tasks by completion status.
+
+### Task Filtering:
+
+Filter tasks based on a date range.
+Display only completed tasks.
+Display only incompleted tasks.
+
+### User Interface:
+
+Intuitive UI with checkboxes to mark completion.
+Options to edit and delete tasks.
+Due dates displayed for each task.
+Stylish icons for editing and deleting tasks.
+
+##Backend APIs
+### Fetch All Tasks:
+
+Endpoint: /api/todos
+Method: GET
+Description: Retrieve all tasks from the database.
+
+- Add New Task:
+
+Endpoint: /api/todos
+Method: POST
+Description: Add a new task to the database.
+
+- Delete Task:
+
+Endpoint: /api/todos/{id}
+Method: DELETE
+Description: Delete a task based on its ID.
+
+- Update Task:
+
+Endpoint: /api/todos/{id}
+Method: PUT
+Description: Update an existing task based on its ID.
+
+- Complete Task:
+
+Endpoint: /api/todos/{id}/complete
+Method: PUT
+Description: Mark a task as completed based on its ID.
+
+## Frontend Implementation
+Task Component (Todo.jsx):
+
+Displays task details, including task name, due date, and completion status.
+Provides checkboxes to mark tasks as completed.
+Icons for editing and deleting tasks.
+Task Form Component (TodoForm.jsx):
+
+Allows users to input new task details.
+Supports due date input for tasks.
+Edit Task Form Component (EditTodoForm.jsx):
+
+Provides a form for editing existing tasks.
+Task Wrapper Component (TodoWrapper.jsx):
+
+Fetches tasks from the backend on component mount.
+Manages state for tasks, due date filters, and sorting preferences.
+Utilizes react-datepicker for date range selection.
+Communication with Backend (axios):
+
+Uses Axios for making HTTP requests to the backend.
+Implements CRUD operations for tasks.
+Styling (CSS):
+
+Styled components for an aesthetically pleasing UI.
+Custom styling for checkboxes, icons, and forms.
+
+##Additional Points
+- Database Connection (application.yml):
+
+- Configured the PostgreSQL database connection details in the Spring Boot application configuration.
+- Maven Build (mvn clean install):
+
+- Configured Maven for building and packaging the Spring Boot application.
+- SDK Version (Java 21):
+
+- Set the Java SDK version to 21 in the IntelliJ project.
+- Git Repository Setup (git remote add origin):
+
+- Configured Git remote for pushing changes to the GitHub repository.
+- By implementing these features and APIs, the TODO FullStack Application provides a user-friendly task management system with sorting, filtering, and editing capabilities.
 
