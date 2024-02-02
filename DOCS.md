@@ -113,28 +113,28 @@ Description: Mark a task as completed based on its ID.
 ## Frontend Implementation
 Task Component (Todo.jsx):
 
-Displays task details, including task name, due date, and completion status.
+- Displays task details, including task name, due date, and completion status.
 Provides checkboxes to mark tasks as completed.
 Icons for editing and deleting tasks.
 Task Form Component (TodoForm.jsx):
 
-Allows users to input new task details.
+- Allows users to input new task details.
 Supports due date input for tasks.
 Edit Task Form Component (EditTodoForm.jsx):
 
-Provides a form for editing existing tasks.
+- Provides a form for editing existing tasks.
 Task Wrapper Component (TodoWrapper.jsx):
 
-Fetches tasks from the backend on component mount.
+- Fetches tasks from the backend on component mount.
 Manages state for tasks, due date filters, and sorting preferences.
 Utilizes react-datepicker for date range selection.
 Communication with Backend (axios):
 
-Uses Axios for making HTTP requests to the backend.
+- Uses Axios for making HTTP requests to the backend.
 Implements CRUD operations for tasks.
 Styling (CSS):
 
-Styled components for an aesthetically pleasing UI.
+ - Styled components for an aesthetically pleasing UI.
 Custom styling for checkboxes, icons, and forms.
 
 ##Additional Points
