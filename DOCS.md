@@ -61,7 +61,7 @@ Delete tasks.
 Mark tasks as completed.
 View tasks with due dates and completion status.
 
-###Task Sorting:
+### Task Sorting:
 
 Sort tasks by due date.
 Sort tasks by completion status.
