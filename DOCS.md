@@ -137,7 +137,7 @@ Styling (CSS):
  - Styled components for an aesthetically pleasing UI.
 Custom styling for checkboxes, icons, and forms.
 
-##Additional Points
+Additional Points
 - Database Connection (application.yml):
 
 - Configured the PostgreSQL database connection details in the Spring Boot application configuration.
