@@ -79,8 +79,8 @@ Options to edit and delete tasks.
 Due dates displayed for each task.
 Stylish icons for editing and deleting tasks.
 
-##Backend APIs
-### Fetch All Tasks:
+## Backend APIs
+- Fetch All Tasks:
 
 Endpoint: /api/todos
 Method: GET
